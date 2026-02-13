@@ -82,6 +82,7 @@ impl VerificationService {
     }
 
     // 保留原有的创建方法（可选）
+    #[allow(dead_code)]
     pub async fn create_verification(
         &self,
         request: CreateVerificationRequest,

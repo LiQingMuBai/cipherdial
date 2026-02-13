@@ -64,6 +64,7 @@ pub async fn create_or_update_verification(
 }
 
 // 保留原有的创建方法（如果需要）
+#[allow(dead_code)]
 pub async fn create_verification(
     State(state): State<Arc<AppState>>,
     Json(payload): Json<CreateVerificationRequest>,
