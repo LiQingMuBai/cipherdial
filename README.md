@@ -3,23 +3,23 @@
 A RESTful API service built with Rust (Axum) following MVC architecture for phone number verification with MySQL database.
 
 Features
-✅ MVC Architecture (Model-View-Controller)
-✅ RESTful API design
-✅ Phone number verification code management
-✅ Create or Update verification records (upsert)
-✅ Query phone number by username
-✅ Data validation
-✅ MySQL database integration with SQLx
-✅ Comprehensive test coverage
-✅ Async/Await support
+1.  MVC Architecture (Model-View-Controller)
+2.  RESTful API design
+3.  Phone number verification code management
+4.  Create or Update verification records (upsert)
+5.  Query phone number by username
+6.  Data validation
+7.  MySQL database integration with SQLx
+8.  Comprehensive test coverage
+9.  Async/Await support
 
 Tech Stack
-Framework: Axum 0.7
-Database: MySQL with SQLx 0.7
-Runtime: Tokio
-Validation: Validator
-UUID: Uuid
-Time handling: Chrono
-Configuration: Dotenv
-Testing: Mockall, Fake, Hyper
+1. Framework: Axum 0.7
+2. Database: MySQL with SQLx 0.7
+3. Runtime: Tokio
+4. Validation: Validator
+5. UUID: Uuid
+6. Time handling: Chrono
+7. Configuration: Dotenv
+8. Testing: Mockall, Fake, Hyper
 
